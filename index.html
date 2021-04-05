@@ -7,7 +7,26 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBNwlAJ8ZwUl_MHgNti7DGVgWWhf3dgBaI",
+    authDomain: "car-racing-game-97121.firebaseapp.com",
+    databaseURL: "https://car-racing-game-97121-default-rtdb.firebaseio.com",
+    projectId: "car-racing-game-97121",
+    storageBucket: "car-racing-game-97121.appspot.com",
+    messagingSenderId: "808586976648",
+    appId: "1:808586976648:web:d68ff0458dbe062dd82e3d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
